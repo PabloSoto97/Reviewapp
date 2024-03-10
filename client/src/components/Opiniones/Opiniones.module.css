@@ -1,0 +1,42 @@
+.heading4 {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: inherit;
+    letter-spacing: -0.02em;
+    line-height: 120%;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .cards,
+  .content1,
+  .property1horizontalCards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cards {
+    align-self: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: var(--gap-21xl);
+  }
+  .content1,
+  .property1horizontalCards {
+    flex-direction: column;
+  }
+  .content1 {
+    width: 100%;
+    gap: 40px 0;
+    max-width: 1440px;
+  }
+  .property1horizontalCards {
+    align-self: stretch;
+    background-color: var(--color-black);
+    padding: var(--padding-101xl) var(--padding-base);
+    z-index: 1;
+    text-align: left;
+    font-size: var(--font-size-32xl);
+    color: var(--color-whitesmoke-100);
+    font-family: var(--font-inter);
+  }

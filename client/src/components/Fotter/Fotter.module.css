@@ -1,0 +1,77 @@
+
+
+.icon {
+    width: 32px;
+    position: relative;
+    height: 32px;
+  }
+  .brandname {
+    position: relative;
+    line-height: 150%;
+    font-weight: 600;
+  }
+  .brand {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0 8px;
+  }
+  .brandname1 {
+    position: relative;
+    font-size: var(--font-size-lg);
+    line-height: 140%;
+  }
+  .brandParent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px 0;
+    min-width: 248px;
+  }
+  .listLinkItem {
+    position: relative;
+    line-height: 150%;
+  }
+  .list {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px 0;
+    min-width: 108px;
+  }
+  .links {
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: var(--gap-21xl);
+    min-width: 280px;
+  }
+  .content2,
+  .links,
+  .typemegaMenu {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .content2 {
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    text-align: left;
+    font-size: var(--font-size-sm);
+    color: var(--color-whitesmoke-100);
+    font-family: var(--font-inter);
+  }
+  .typemegaMenu {
+    align-self: stretch;
+    background-color: var(--color-black);
+    justify-content: center;
+    padding: 64px 32px;
+    z-index: 0;
+  }

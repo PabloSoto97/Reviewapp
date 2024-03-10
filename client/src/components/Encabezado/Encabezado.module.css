@@ -1,0 +1,79 @@
+.typemobileDownload {
+    align-self: stretch;
+    background-color: var(--color-black);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-101xl) var(--padding-base) var(--padding-5xl);
+    z-index: 3;
+    text-align: left;
+    font-size: var(--font-size-32xl);
+    color: var(--color-whitesmoke-100);
+    font-family: var(--font-inter);
+  }
+  .container {
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 48px 59px;
+    max-width: 1200px;
+  }
+  .copyComponent {
+    flex: 1;
+    border-radius: var(--br-13xl);
+    background-color: var(--color-black);
+    min-width: 304px;
+    max-width: 524px;
+  }
+.copyComponent,
+.headingText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.headingText {
+  align-self: stretch;
+  gap: 16px 0;
+}
+.heading,
+.subheading {
+  align-self: stretch;
+  position: relative;
+}
+.heading {
+  margin: 0;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  display: -webkit-inline-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.subheading {
+  font-size: var(--font-size-lg);
+  line-height: 140%;
+  color: #d4d4d8;
+}
+.container,
+.visualComp {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.visualComp {
+  align-items: flex-end;
+  min-width: 420px;
+  max-width: 640px;
+}
+.visualCompChild {
+    width: 628px;
+    height: 651px;
+    z-index: 0;
+  }

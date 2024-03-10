@@ -1,0 +1,133 @@
+.content,
+.typebigCards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  width: 100%;
+  gap: 32px 0;
+  max-width: 1440px;
+}
+.typebigCards {
+  align-self: stretch;
+  background-color: var(--color-black);
+  padding: var(--padding-101xl) var(--padding-base);
+  z-index: 2;
+  text-align: left;
+  font-size: var(--font-size-19xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.featureTitle {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    letter-spacing: -0.02em;
+    line-height: 118%;
+    font-weight: 700;
+    font-family: inherit;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .heading1 {
+    align-self: stretch;
+    border-radius: var(--br-base);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .featureDescription {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-sm);
+    line-height: 150%;
+  }
+  .featureLummi {
+    align-self: stretch;
+    border-radius: var(--br-13xl);
+    height: 516px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-5xl);
+    box-sizing: border-box;
+    gap: 8px 0;
+    background-image: url(/public/feature--lummi@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    min-width: 256px;
+    min-height: 320px;
+  }
+  .featureTitle1 {
+    flex: 1;
+    position: relative;
+    line-height: 150%;
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .featureDescription1 {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-xs);
+    line-height: 160%;
+  }
+  .cardsLummi {
+    flex: 1;
+    border-radius: var(--br-13xl);
+    height: 420px;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: var(--padding-5xl);
+    box-sizing: border-box;
+    gap: 8px 0;
+    background-image: url(/public/cards--lummi@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    min-width: 256px;
+    min-height: 320px;
+  }
+  .cardsLummi,
+  .featureGrid,
+  .featureLummi1 {
+    display: flex;
+    align-items: flex-start;
+  }
+  .featureLummi1 {
+    flex: 1;
+    border-radius: var(--br-13xl);
+    height: 420px;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: var(--padding-5xl);
+    box-sizing: border-box;
+    gap: 8px 0;
+    background-image: url(/public/feature--lummi1@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    min-width: 256px;
+    min-height: 320px;
+    font-size: var(--font-size-19xl);
+  }
+  .featureGrid {
+    align-self: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--gap-5xl);
+    font-size: var(--font-size-sm);
+  }

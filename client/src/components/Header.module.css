@@ -1,0 +1,79 @@
+.navLabel {
+  position: relative;
+  line-height: 160%;
+  font-weight: 600;
+}
+.navLink,
+.navLinks,
+.navLinks1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.navLink {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs);
+}
+.navLinks,
+.navLinks1 {
+  justify-content: center;
+  padding: 0 var(--padding-base);
+  gap: 0 16px;
+}
+.navLinks {
+  margin: 0;
+  z-index: 0;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-200);
+  font-family: var(--font-inter);
+}
+.navLinks1 {
+  z-index: 1;
+}
+.brandname {
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+}
+.brand {
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% - 10px);
+  left: calc(50% - 37.5px);
+  justify-content: center;
+  z-index: 2;
+  font-size: var(--font-size-sm);
+}
+.brand,
+.bubbleContainer,
+.typebubbleInverted {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.bubbleContainer {
+  flex: 1;
+  border-radius: var(--br-45xl);
+  background-color: var(--color-whitesmoke-200);
+  justify-content: space-between;
+  padding: var(--padding-base) var(--padding-5xs);
+  position: relative;
+}
+.typebubbleInverted {
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  justify-content: center;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+  z-index: 4;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-200);
+  font-family: var(--font-inter);
+}
